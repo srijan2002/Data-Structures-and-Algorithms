@@ -19,6 +19,7 @@ void calculateSpan(int price[], int n, int span[])
         span[i] = (S.empty()) ? (i + 1) : (i - S.top());
         S.push(i);
     }
+    
 }
  
 void printArray(int a[], int n)
